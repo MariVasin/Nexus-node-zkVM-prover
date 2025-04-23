@@ -1,4 +1,4 @@
-# Nexus zkVM Prover Node Installation Guide (Ubuntu 22)
+# Nexus zkVM Prover v3 Installation Guide (Ubuntu 22)
 
 This guide explains how to install the zkVM prover node for Nexus on Ubuntu 22.04.
 
