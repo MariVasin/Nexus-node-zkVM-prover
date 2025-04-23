@@ -52,10 +52,4 @@ If you see logs similar to the screenshot below, your node is working!
 
 ---
 
-## Screenshots
-
-*You can add screenshots in the `img/` folder for extra clarity!*
-
----
-
 **Good luck and happy node running!**
