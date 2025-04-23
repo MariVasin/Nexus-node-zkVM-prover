@@ -48,8 +48,6 @@ When asked:
 - Type `2` (for prover node) and press `ENTER`.
 - Enter your **Node ID** from the Nexus website and press `ENTER`.
 
-If you see logs similar to the screenshot below, your node is working!
-
 ---
 
 **Good luck and happy node running!**
