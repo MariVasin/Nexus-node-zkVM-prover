@@ -2,13 +2,13 @@
 
 This guide helps you deploy a Nexus node on a VPS (e.g., from https://xorek.cloud).
 
-## ✅ Requirements
+##  Requirements
 - VPS with Ubuntu (the more powerful, the better the farming)
 - root access (or sudo privileges)
 
 ---
 
-## 🐧 Installing Dependencies (Ubuntu)
+##  Installing Dependencies (Ubuntu)
 
 ```bash
 sudo apt update
@@ -22,7 +22,7 @@ sudo apt install screen -y
 
 ---
 
-## 📥 Install Nexus CLI
+##  Install Nexus CLI
 
 ```bash
 docker pull nexusxyz/nexus-cli:latest
@@ -30,14 +30,14 @@ docker pull nexusxyz/nexus-cli:latest
 
 ---
 
-## 🔗 Get Your Node ID
+##  Get Your Node ID
 1. Go to [https://app.nexus.xyz/](https://app.nexus.xyz/)
 2. Open the **Node** tab
 3. Copy your **Node ID**
 
 ---
 
-## 🚀 Start the Node
+##  Start the Node
 
 ```bash
 screen -S nexus
@@ -48,12 +48,12 @@ docker run -it --init \
   nexusxyz/nexus-cli:latest start --node-id <YOUR_ID>
 ```
 
-### 📤 Detach the screen session (so it keeps running in the background):
+###  Detach the screen session (so it keeps running in the background):
 Press `CTRL + A`, then `D`
 
 ---
 
-## 🔁 Updating the Node
+## Updating the Node
 
 ```bash
 # Reattach to the session:
@@ -72,7 +72,7 @@ docker run -it --init \
 
 ---
 
-## 🧠 Useful Commands
+##  Useful Commands
 - `screen -ls` — list screen sessions
 - `screen -r nexus` — reattach to the Nexus session
 - `CTRL+A+D` — detach
@@ -80,14 +80,14 @@ docker run -it --init \
 
 ---
 
-## 📄 License
+##  License
 
 MIT License. Feel free to use, fork, and share.
 
 ---
 
-### 💬 Author: [your name or nickname]
+###  Author: skcrypto
 
 A simple guide for deploying and maintaining a Nexus node.
 
-Happy farming! 🚜
+Happy farming! 
